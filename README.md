@@ -23,3 +23,8 @@ Ngoại lệ:
 -Bắt ngoại lệ lỗi sql, dữ liệu null
 
 Lưu ý, tương tác tới db dùng jdbc connection , và thực hiện các câu select * from…. thay vì dùng jpa
+
+Thêm: giả sử lúc chạy thì conenction kết nối bt, nhưng trong lúc chạy, ví dụ mất mạng thì lúc này cái connection này của bọn e sẽ ntn ?
+cộng vs đọc thêm khái niệm connection pool, thì cái bọn e dùng vs cái pool sẽ có ưu nhược ntn?
+
+[Connection Pool](https://docs.google.com/document/d/1AbVP4E2JQ5Z6lNhl_2K-mwsZ1eV7nkCJGPnOnzbreMg/edit?usp=sharing)
